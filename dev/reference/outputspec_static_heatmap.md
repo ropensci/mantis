@@ -23,7 +23,7 @@ outputspec_static_heatmap(
 
   string for y-axis label. Optional. If `NULL`, the label will be
   constructed from the
-  [`inputspec()`](https://phuongquan.github.io/mantis/dev/reference/inputspec.md)
+  [`inputspec()`](https://ropensci.github.io/mantis/dev/reference/inputspec.md)
 
 - item_order:
 
@@ -51,8 +51,8 @@ in the list.
 
 ## See also
 
-[`outputspec_interactive()`](https://phuongquan.github.io/mantis/dev/reference/outputspec_interactive.md),
-[`outputspec_static_multipanel()`](https://phuongquan.github.io/mantis/dev/reference/outputspec_static_multipanel.md)
+[`outputspec_interactive()`](https://ropensci.github.io/mantis/dev/reference/outputspec_interactive.md),
+[`outputspec_static_multipanel()`](https://ropensci.github.io/mantis/dev/reference/outputspec_static_multipanel.md)
 
 ## Examples
 

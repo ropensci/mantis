@@ -3,7 +3,7 @@
 ## Reporting issues
 
 Please report any bugs or suggestions by opening a [github
-issue](https://github.com/phuongquan/mantis/issues).
+issue](https://github.com/ropensci/mantis/issues).
 
 If you’ve found a bug, please file an issue that illustrates the bug
 with a minimal [reprex](https://www.tidyverse.org/help/#reprex). See the

@@ -15,7 +15,7 @@ generating/adding to Quarto reports.
 ## Overview
 
 The standard
-[`mantis_report()`](https://phuongquan.github.io/mantis/dev/reference/mantis_report.md)
+[`mantis_report()`](https://ropensci.github.io/mantis/dev/reference/mantis_report.md)
 is designed for quick and simple review of time series that can be
 stored in a single data frame. If you like the `mantis` visualisations
 but want to build a more complex report, e.g. to display data from
@@ -32,7 +32,7 @@ can copy from/adapt.
 ## Adding `mantis` content
 
 `mantis` includes one main function
-[`bespoke_rmd_output()`](https://phuongquan.github.io/mantis/dev/reference/bespoke_rmd_output.md)
+[`bespoke_rmd_output()`](https://ropensci.github.io/mantis/dev/reference/bespoke_rmd_output.md)
 for creating content for bespoke reports. This function use side-effects
 to generate the desired markdown, and must be placed inside a
 `{r, results='asis'}` chunk.
@@ -47,7 +47,7 @@ The function can:
 
 The function also includes a few additional parameters not available in
 the standard
-[`mantis_report()`](https://phuongquan.github.io/mantis/dev/reference/mantis_report.md)
+[`mantis_report()`](https://ropensci.github.io/mantis/dev/reference/mantis_report.md)
 to allow some extra control over the display.
 
 **Example:**

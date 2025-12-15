@@ -31,7 +31,7 @@
 <li class="active nav-item"><a class="nav-link" href="../news/index.html">Changelog</a></li>
       </ul><ul class="navbar-nav"><li class="nav-item"><form class="form-inline" role="search">
  <input class="form-control" type="search" name="search-input" id="search-input" autocomplete="off" aria-label="Search site" placeholder="Search for" data-search-index="../search.json"></form></li>
-<li class="nav-item"><a class="external-link nav-link" href="https://github.com/phuongquan/mantis/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
+<li class="nav-item"><a class="external-link nav-link" href="https://github.com/ropensci/mantis/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
       </ul></div>
 
 
@@ -41,7 +41,7 @@
   <main id="main" class="col-md-9"><div class="page-header">
 
       <h1>Changelog</h1>
-      <small>Source: <a href="https://github.com/phuongquan/mantis/blob/main/NEWS.md" class="external-link"><code>NEWS.md</code></a></small>
+      <small>Source: <a href="https://github.com/ropensci/mantis/blob/main/NEWS.md" class="external-link"><code>NEWS.md</code></a></small>
     </div>
 
     <div class="section level2">
@@ -59,7 +59,7 @@
 <code>item_order</code> parameter of <code>outputspec()</code> can now handle an arbitrary number of items</li>
 <li>
 <code>timepoint_limits</code> parameter for alerts and bespoke reports now automatically adjusts user-supplied values to align with the data and <code>timepoint_unit</code> where necessary, instead of inserting inappropriate additional timepoints in plots</li>
-<li>Date-only timepoints cast as POSIXt using a daylight-savings-varying timezone no longer result in inappropriate additional timepoints appearing in plots (<a href="https://github.com/phuongquan/mantis/issues/30" class="external-link">#30</a>)</li>
+<li>Date-only timepoints cast as POSIXt using a daylight-savings-varying timezone no longer result in inappropriate additional timepoints appearing in plots (<a href="https://github.com/ropensci/mantis/issues/30" class="external-link">#30</a>)</li>
 <li>Stricter validation of POSIXt timepoints</li>
 </ul></div>
 </div>
@@ -72,13 +72,13 @@
 <p>Lightweight initial CRAN submission. Only includes standard (non-bespoke) reports.</p>
 <div class="section level3">
 <h3 id="breaking-changes-0-4-2">Breaking changes<a class="anchor" aria-label="anchor" href="#breaking-changes-0-4-2"></a></h3>
-<ul><li>New <code>file</code> parameter in <code><a href="../reference/mantis_report.html">mantis_report()</a></code> replaces <code>save_directory</code> and <code>save_filename</code> (<a href="https://github.com/phuongquan/mantis/issues/24" class="external-link">#24</a>)</li>
-<li>New <code>add_timestamp</code> parameter in <code><a href="../reference/mantis_report.html">mantis_report()</a></code> adds a timestamp to the supplied file name (<a href="https://github.com/phuongquan/mantis/issues/24" class="external-link">#24</a>)</li>
+<ul><li>New <code>file</code> parameter in <code><a href="../reference/mantis_report.html">mantis_report()</a></code> replaces <code>save_directory</code> and <code>save_filename</code> (<a href="https://github.com/ropensci/mantis/issues/24" class="external-link">#24</a>)</li>
+<li>New <code>add_timestamp</code> parameter in <code><a href="../reference/mantis_report.html">mantis_report()</a></code> adds a timestamp to the supplied file name (<a href="https://github.com/ropensci/mantis/issues/24" class="external-link">#24</a>)</li>
 </ul></div>
 <div class="section level3">
 <h3 id="bug-fixes-and-minor-improvements-0-4-2">Bug fixes and minor improvements<a class="anchor" aria-label="anchor" href="#bug-fixes-and-minor-improvements-0-4-2"></a></h3>
 <ul><li>Timestamps added to filenames are now formatted correctly on linux</li>
-<li>Intermediate files that are generated while creating a report are now created in <code><a href="https://rdrr.io/r/base/tempfile.html" class="external-link">tempdir()</a></code> instead of the working directory where possible (<a href="https://github.com/phuongquan/mantis/issues/24" class="external-link">#24</a>)</li>
+<li>Intermediate files that are generated while creating a report are now created in <code><a href="https://rdrr.io/r/base/tempfile.html" class="external-link">tempdir()</a></code> instead of the working directory where possible (<a href="https://github.com/ropensci/mantis/issues/24" class="external-link">#24</a>)</li>
 </ul></div>
 </div>
     <div class="section level2">

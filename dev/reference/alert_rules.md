@@ -20,7 +20,7 @@ An `alert_rules` object
 
 ## See also
 
-[`alert_rule_types()`](https://phuongquan.github.io/mantis/dev/reference/alert_rule_types.md)
+[`alert_rule_types()`](https://ropensci.github.io/mantis/dev/reference/alert_rule_types.md)
 
 ## Examples
 

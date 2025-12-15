@@ -5,7 +5,7 @@ must also be at least one standard chunk that contains the relevant
 widgets, otherwise they will fail to render. The `dygraph` also needs to
 be initialised with the appropriate `plot_type`. This is only needed
 when creating interactive reports. Make sure you read the vignette:
-[`vignette("bespoke-reports", package = "mantis")`](https://phuongquan.github.io/mantis/dev/articles/bespoke-reports.md)
+[`vignette("bespoke-reports", package = "mantis")`](https://ropensci.github.io/mantis/dev/articles/bespoke-reports.md)
 as it contains further important information. Note: The chunk currently
 appears like a line break when rendered. See
 <https://github.com/rstudio/rmarkdown/issues/1877> for more info.

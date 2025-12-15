@@ -28,14 +28,14 @@ bespoke_rmd_alert_results(
 
 - inputspec:
 
-  [`inputspec()`](https://phuongquan.github.io/mantis/dev/reference/inputspec.md)
+  [`inputspec()`](https://ropensci.github.io/mantis/dev/reference/inputspec.md)
   object specifying which columns in the supplied `df` represent the
   "timepoint", "item", and "value" for the time series. Any "tab" column
   specification will be ignored.
 
 - alert_rules:
 
-  [`alert_rules()`](https://phuongquan.github.io/mantis/dev/reference/alert_rules.md)
+  [`alert_rules()`](https://ropensci.github.io/mantis/dev/reference/alert_rules.md)
   object specifying conditions to test
 
 - filter_results:

@@ -2,7 +2,7 @@
 
 Each tab contains a single table with one row per time series, and
 sortable/filterable columns based on the `item_cols` parameter of the
-[`inputspec()`](https://phuongquan.github.io/mantis/dev/reference/inputspec.md).
+[`inputspec()`](https://ropensci.github.io/mantis/dev/reference/inputspec.md).
 The time series plots have tooltips and can be zoomed in by selecting an
 area of the plot.
 
@@ -87,8 +87,8 @@ in the list.
 
 ## See also
 
-[`outputspec_static_heatmap()`](https://phuongquan.github.io/mantis/dev/reference/outputspec_static_heatmap.md),
-[`outputspec_static_multipanel()`](https://phuongquan.github.io/mantis/dev/reference/outputspec_static_multipanel.md)
+[`outputspec_static_heatmap()`](https://ropensci.github.io/mantis/dev/reference/outputspec_static_heatmap.md),
+[`outputspec_static_multipanel()`](https://ropensci.github.io/mantis/dev/reference/outputspec_static_multipanel.md)
 
 ## Examples
 

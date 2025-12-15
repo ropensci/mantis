@@ -59,7 +59,7 @@ used to identify the individual time series (items), and which columns
 contain the timepoint (x-axis) and value (y-axis) for the time series.
 These are set using the `item_cols`, `timepoint_col` and `value_col`
 parameters of
-[`inputspec()`](https://phuongquan.github.io/mantis/dev/reference/inputspec.md)
+[`inputspec()`](https://ropensci.github.io/mantis/dev/reference/inputspec.md)
 respectively. Any other columns in the data frame are ignored.
 
 Optionally, if there are multiple columns specified in `item_cols`, one
@@ -140,12 +140,12 @@ In this example dataset, the time series contain daily values, which is
 the default pattern of timepoints expected by the package. If the time
 series were to contain e.g. monthly or hourly values, this should be
 specified using the `timepoint_unit` parameter of
-[`inputspec()`](https://phuongquan.github.io/mantis/dev/reference/inputspec.md).
+[`inputspec()`](https://ropensci.github.io/mantis/dev/reference/inputspec.md).
 
 ## Generating a report
 
 The simplest way to create a report is to use the
-[`mantis_report()`](https://phuongquan.github.io/mantis/dev/reference/mantis_report.md)
+[`mantis_report()`](https://ropensci.github.io/mantis/dev/reference/mantis_report.md)
 function.
 
 We need to decide where to save the report to. The file name can only
@@ -169,7 +169,7 @@ values.
 There are some options for adjusting the output, such as changing column
 labels, plot type, and whether or not to use the same y-axis scale
 across the table. This can be done using the
-[`outputspec_interactive()`](https://phuongquan.github.io/mantis/dev/reference/outputspec_interactive.md)
+[`outputspec_interactive()`](https://ropensci.github.io/mantis/dev/reference/outputspec_interactive.md)
 function when supplying the `outputspec` parameter.
 
 **Example:**
@@ -198,9 +198,9 @@ Alternatively, the report can output static plots. This can be useful if
 interactivity is not needed, or if file sizes need to be kept small.
 There are currently two types of static visualisations: heatmap or
 multipanel, and are selected by using the
-[`outputspec_static_heatmap()`](https://phuongquan.github.io/mantis/dev/reference/outputspec_static_heatmap.md)
+[`outputspec_static_heatmap()`](https://ropensci.github.io/mantis/dev/reference/outputspec_static_heatmap.md)
 or
-[`outputspec_static_multipanel()`](https://phuongquan.github.io/mantis/dev/reference/outputspec_static_multipanel.md)
+[`outputspec_static_multipanel()`](https://ropensci.github.io/mantis/dev/reference/outputspec_static_multipanel.md)
 function when supplying the `outputspec` parameter.
 
 #### Heatmap

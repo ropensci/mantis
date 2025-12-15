@@ -21,7 +21,7 @@ considerably.
 ## Overview
 
 One or more alerting rules can be specified within an
-[`alert_rules()`](https://phuongquan.github.io/mantis/dev/reference/alert_rules.md)
+[`alert_rules()`](https://ropensci.github.io/mantis/dev/reference/alert_rules.md)
 object, which is then passed into the `alert_rules` parameter. When
 creating a standard mantis report, the `alertspec` parameter also
 controls how the results are displayed in the final tab.
@@ -48,15 +48,15 @@ ars <- alert_rules(
 ```
 
 The
-[`alert_equals()`](https://phuongquan.github.io/mantis/dev/reference/alert_rule_types.md),
-[`alert_below()`](https://phuongquan.github.io/mantis/dev/reference/alert_rule_types.md),
-[`alert_above()`](https://phuongquan.github.io/mantis/dev/reference/alert_rule_types.md)
+[`alert_equals()`](https://ropensci.github.io/mantis/dev/reference/alert_rule_types.md),
+[`alert_below()`](https://ropensci.github.io/mantis/dev/reference/alert_rule_types.md),
+[`alert_above()`](https://ropensci.github.io/mantis/dev/reference/alert_rule_types.md)
 rules work similarly, but with an extra parameter `rule_value` to
 compare against. It is also possible to compare a range of values with
 another range of values using the
-[`alert_difference_above_perc()`](https://phuongquan.github.io/mantis/dev/reference/alert_rule_types.md)
+[`alert_difference_above_perc()`](https://ropensci.github.io/mantis/dev/reference/alert_rule_types.md)
 and
-[`alert_difference_below_perc()`](https://phuongquan.github.io/mantis/dev/reference/alert_rule_types.md)
+[`alert_difference_below_perc()`](https://ropensci.github.io/mantis/dev/reference/alert_rule_types.md)
 rules. This can be useful for checking if recent values are lower/higher
 than in a previous period, over a particular percentage. This comparison
 is based on the mean of values in the two periods. The ranges should be
@@ -77,7 +77,7 @@ ars <- alert_rules(
 ## Custom rules
 
 If you want to apply a more complex rule, you can specify your own using
-[`alert_custom()`](https://phuongquan.github.io/mantis/dev/reference/alert_rule_types.md).
+[`alert_custom()`](https://ropensci.github.io/mantis/dev/reference/alert_rule_types.md).
 E.g.
 
 ``` r

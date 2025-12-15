@@ -16,15 +16,15 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/phuongquan/mantis/blob/main/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/ropensci/mantis/blob/main/DESCRIPTION)
 
 Quan TP (2025). *mantis: Multiple Time Series Scanner*. R package
-version 1.0.0.9000, <https://github.com/phuongquan/mantis>.
+version 1.0.0.9000, <https://github.com/ropensci/mantis>.
 
     @Manual{,
       title = {mantis: Multiple Time Series Scanner},
       author = {T. Phuong Quan},
       year = {2025},
       note = {R package version 1.0.0.9000},
-      url = {https://github.com/phuongquan/mantis},
+      url = {https://github.com/ropensci/mantis},
     }

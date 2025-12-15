@@ -4,7 +4,7 @@ Add `mantis` tabs and visualisations to an existing `rmarkdown` report.
 The function writes directly to the chunk using side-effects, so chunk
 options must contain `results = 'asis'`. Make sure you read the
 vignette:
-[`vignette("bespoke-reports", package = "mantis")`](https://phuongquan.github.io/mantis/dev/articles/bespoke-reports.md)
+[`vignette("bespoke-reports", package = "mantis")`](https://ropensci.github.io/mantis/dev/articles/bespoke-reports.md)
 as it contains further important information.
 
 ## Usage
@@ -31,7 +31,7 @@ bespoke_rmd_output(
 
 - inputspec:
 
-  [`inputspec()`](https://phuongquan.github.io/mantis/dev/reference/inputspec.md)
+  [`inputspec()`](https://ropensci.github.io/mantis/dev/reference/inputspec.md)
   object specifying which columns in the supplied `df` represent the
   "timepoint", "item", and "value" for the time series. A separate tab
   will be created for each distinct value in the "tab" column.
@@ -43,14 +43,14 @@ bespoke_rmd_output(
 
 - alertspec:
 
-  [`alertspec()`](https://phuongquan.github.io/mantis/dev/reference/alertspec.md)
+  [`alertspec()`](https://ropensci.github.io/mantis/dev/reference/alertspec.md)
   object specifying conditions to test and display
 
 - timepoint_limits:
 
   Set start and end dates for time period to include. Defaults to
   min/max of `timepoint_col`. If the `timepoint_unit` of
-  [`inputspec()`](https://phuongquan.github.io/mantis/dev/reference/inputspec.md)
+  [`inputspec()`](https://ropensci.github.io/mantis/dev/reference/inputspec.md)
   is a "day" or longer, this must be a Date type, otherwise it should be
   a POSIXt type.
 
@@ -105,7 +105,7 @@ by using the `tab_col` parameter.
 
 ## See also
 
-[`bespoke_rmd_initialise_widgets()`](https://phuongquan.github.io/mantis/dev/reference/bespoke_rmd_initialise_widgets.md)
+[`bespoke_rmd_initialise_widgets()`](https://ropensci.github.io/mantis/dev/reference/bespoke_rmd_initialise_widgets.md)
 
 ## Examples
 

@@ -15,7 +15,7 @@ alertspec(alert_rules, show_tab_results = c("PASS", "FAIL", "NA"))
 
 - alert_rules:
 
-  [`alert_rules()`](https://phuongquan.github.io/mantis/dev/reference/alert_rules.md)
+  [`alert_rules()`](https://ropensci.github.io/mantis/dev/reference/alert_rules.md)
   object specifying conditions to test
 
 - show_tab_results:
@@ -30,8 +30,8 @@ An `alertspec()` object
 
 ## See also
 
-[`alert_rules()`](https://phuongquan.github.io/mantis/dev/reference/alert_rules.md),
-[`alert_rule_types()`](https://phuongquan.github.io/mantis/dev/reference/alert_rule_types.md)
+[`alert_rules()`](https://ropensci.github.io/mantis/dev/reference/alert_rules.md),
+[`alert_rule_types()`](https://ropensci.github.io/mantis/dev/reference/alert_rule_types.md)
 
 ## Examples
 

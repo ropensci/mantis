@@ -39,7 +39,7 @@ mantis_report(
 
 - inputspec:
 
-  [`inputspec()`](https://phuongquan.github.io/mantis/dev/reference/inputspec.md)
+  [`inputspec()`](https://ropensci.github.io/mantis/dev/reference/inputspec.md)
   object specifying which columns in the supplied `df` represent the
   "timepoint", "item", "value" and (optionally) "tab" for the time
   series. If a "tab" column is specified, a separate tab will be created
@@ -52,7 +52,7 @@ mantis_report(
 
 - alertspec:
 
-  [`alertspec()`](https://phuongquan.github.io/mantis/dev/reference/alertspec.md)
+  [`alertspec()`](https://ropensci.github.io/mantis/dev/reference/alertspec.md)
   object specifying conditions to test and display.
 
 - report_title:
@@ -108,11 +108,11 @@ format, i.e.:
 
 ## See also
 
-[`inputspec()`](https://phuongquan.github.io/mantis/dev/reference/inputspec.md),
-[`outputspec_interactive()`](https://phuongquan.github.io/mantis/dev/reference/outputspec_interactive.md),
-[`outputspec_static_heatmap()`](https://phuongquan.github.io/mantis/dev/reference/outputspec_static_heatmap.md),
-[`outputspec_static_multipanel()`](https://phuongquan.github.io/mantis/dev/reference/outputspec_static_multipanel.md),
-[`alertspec()`](https://phuongquan.github.io/mantis/dev/reference/alertspec.md)
+[`inputspec()`](https://ropensci.github.io/mantis/dev/reference/inputspec.md),
+[`outputspec_interactive()`](https://ropensci.github.io/mantis/dev/reference/outputspec_interactive.md),
+[`outputspec_static_heatmap()`](https://ropensci.github.io/mantis/dev/reference/outputspec_static_heatmap.md),
+[`outputspec_static_multipanel()`](https://ropensci.github.io/mantis/dev/reference/outputspec_static_multipanel.md),
+[`alertspec()`](https://ropensci.github.io/mantis/dev/reference/alertspec.md)
 
 ## Examples
 
@@ -150,13 +150,13 @@ filename <- mantis_report(
 #> 10/12 [mantis-content]     
 #> 11/12                      
 #> 12/12 [mantis-init-widgets]
-#> output file: /tmp/RtmpMxpd9p/mantis_temp_14kx53xy/report-html.knit.md
-#> /opt/hostedtoolcache/pandoc/3.1.11/x64/pandoc +RTS -K512m -RTS /tmp/RtmpMxpd9p/mantis_temp_14kx53xy/report-html.knit.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output /tmp/RtmpMxpd9p/example_prescription_numbers_interactive.html --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --variable bs3=TRUE --section-divs --template /home/runner/work/_temp/Library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable theme=bootstrap --mathjax --variable 'mathjax-url=https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --include-in-header /tmp/RtmpMxpd9p/rmarkdown-str1a0463dd7f9c.html 
+#> output file: /tmp/Rtmpt6dwS2/mantis_temp_14kx53xy/report-html.knit.md
+#> /opt/hostedtoolcache/pandoc/3.1.11/x64/pandoc +RTS -K512m -RTS /tmp/Rtmpt6dwS2/mantis_temp_14kx53xy/report-html.knit.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output /tmp/Rtmpt6dwS2/example_prescription_numbers_interactive.html --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --variable bs3=TRUE --section-divs --template /home/runner/work/_temp/Library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable theme=bootstrap --mathjax --variable 'mathjax-url=https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --include-in-header /tmp/Rtmpt6dwS2/rmarkdown-str193657f2f413.html 
 #> 
-#> Output created: /tmp/RtmpMxpd9p/example_prescription_numbers_interactive.html
+#> Output created: /tmp/Rtmpt6dwS2/example_prescription_numbers_interactive.html
 
 filename
-#> [1] "/tmp/RtmpMxpd9p/example_prescription_numbers_interactive.html"
+#> [1] "/tmp/Rtmpt6dwS2/example_prescription_numbers_interactive.html"
 # }
 
 # \donttest{
@@ -198,12 +198,12 @@ filename <- mantis_report(
 #> 10/12 [mantis-content]     
 #> 11/12                      
 #> 12/12 [mantis-init-widgets]
-#> output file: /tmp/RtmpMxpd9p/mantis_temp_ol6v58l9/report-html.knit.md
-#> /opt/hostedtoolcache/pandoc/3.1.11/x64/pandoc +RTS -K512m -RTS /tmp/RtmpMxpd9p/mantis_temp_ol6v58l9/report-html.knit.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output /tmp/RtmpMxpd9p/example_prescription_numbers_interactive.html --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --variable bs3=TRUE --section-divs --template /home/runner/work/_temp/Library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable theme=bootstrap --mathjax --variable 'mathjax-url=https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --include-in-header /tmp/RtmpMxpd9p/rmarkdown-str1a0468ff26f0.html 
+#> output file: /tmp/Rtmpt6dwS2/mantis_temp_ol6v58l9/report-html.knit.md
+#> /opt/hostedtoolcache/pandoc/3.1.11/x64/pandoc +RTS -K512m -RTS /tmp/Rtmpt6dwS2/mantis_temp_ol6v58l9/report-html.knit.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output /tmp/Rtmpt6dwS2/example_prescription_numbers_interactive.html --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --variable bs3=TRUE --section-divs --template /home/runner/work/_temp/Library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable theme=bootstrap --mathjax --variable 'mathjax-url=https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --include-in-header /tmp/Rtmpt6dwS2/rmarkdown-str193616a0131b.html 
 #> 
-#> Output created: /tmp/RtmpMxpd9p/example_prescription_numbers_interactive.html
+#> Output created: /tmp/Rtmpt6dwS2/example_prescription_numbers_interactive.html
 
 filename
-#> [1] "/tmp/RtmpMxpd9p/example_prescription_numbers_interactive.html"
+#> [1] "/tmp/Rtmpt6dwS2/example_prescription_numbers_interactive.html"
 # }
 ```

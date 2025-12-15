@@ -102,7 +102,7 @@ only be applied when the `item_col`'s value is contained in the
 corresponding character vector. When multiple `item_col`s are specified,
 the rule will be applied only to items that satisfy all the conditions.
 See Examples in
-[`alert_rules()`](https://phuongquan.github.io/mantis/dev/reference/alert_rules.md)
+[`alert_rules()`](https://ropensci.github.io/mantis/dev/reference/alert_rules.md)
 
 `alert_missing()` - Test for the presence of NA values.
 
@@ -137,8 +137,8 @@ and `timepoint`, and which refer to the values in the `value_col` and
 
 ## See also
 
-[`alert_rules()`](https://phuongquan.github.io/mantis/dev/reference/alert_rules.md),
-[`alertspec()`](https://phuongquan.github.io/mantis/dev/reference/alertspec.md)
+[`alert_rules()`](https://ropensci.github.io/mantis/dev/reference/alert_rules.md),
+[`alertspec()`](https://ropensci.github.io/mantis/dev/reference/alertspec.md)
 
 ## Examples
 

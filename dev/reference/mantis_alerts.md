@@ -25,13 +25,13 @@ mantis_alerts(
 
 - inputspec:
 
-  [`inputspec()`](https://phuongquan.github.io/mantis/dev/reference/inputspec.md)
+  [`inputspec()`](https://ropensci.github.io/mantis/dev/reference/inputspec.md)
   object specifying which columns in the supplied `df` represent the
   "timepoint", "item", and "value" for the time series.
 
 - alert_rules:
 
-  [`alert_rules()`](https://phuongquan.github.io/mantis/dev/reference/alert_rules.md)
+  [`alert_rules()`](https://ropensci.github.io/mantis/dev/reference/alert_rules.md)
   object specifying conditions to test
 
 - filter_results:
@@ -72,9 +72,9 @@ The `inputspec` parameter maps the data frame columns to the above.
 
 ## See also
 
-[`alert_rules()`](https://phuongquan.github.io/mantis/dev/reference/alert_rules.md),
-[`inputspec()`](https://phuongquan.github.io/mantis/dev/reference/inputspec.md),
-[`alert_rule_types()`](https://phuongquan.github.io/mantis/dev/reference/alert_rule_types.md)
+[`alert_rules()`](https://ropensci.github.io/mantis/dev/reference/alert_rules.md),
+[`inputspec()`](https://ropensci.github.io/mantis/dev/reference/inputspec.md),
+[`alert_rule_types()`](https://ropensci.github.io/mantis/dev/reference/alert_rule_types.md)
 
 ## Examples
 

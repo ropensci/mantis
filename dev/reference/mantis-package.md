@@ -12,11 +12,11 @@ self-contained and shareable without a web server.
 
 Useful links:
 
-- <https://github.com/phuongquan/mantis>
+- <https://github.com/ropensci/mantis>
 
-- <https://phuongquan.github.io/mantis/>
+- <https://ropensci.github.io/mantis/>
 
-- Report bugs at <https://github.com/phuongquan/mantis/issues>
+- Report bugs at <https://github.com/ropensci/mantis/issues>
 
 ## Author
 
