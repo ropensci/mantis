@@ -5,9 +5,9 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/phuongquan/mantis/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/phuongquan/mantis/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/ropensci/mantis/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ropensci/mantis/actions/workflows/R-CMD-check.yaml)
 [![Codecov test
-coverage](https://codecov.io/gh/phuongquan/mantis/graph/badge.svg)](https://app.codecov.io/gh/phuongquan/mantis)
+coverage](https://codecov.io/gh/ropensci/mantis/graph/badge.svg)](https://app.codecov.io/gh/ropensci/mantis)
 [![Project Status: Active – The project has reached a stable, usable
 state and is being actively
 developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
@@ -29,11 +29,11 @@ The resulting html reports are self-contained and shareable without a
 web server.
 
 Example reports and more detailed guidance can be found in the [package
-website](https://phuongquan.github.io/mantis/index.html), including how
-to add [alerting
-rules](https://phuongquan.github.io/mantis/articles/alert-rules.html)
-and how to add `mantis` visualisations to your own [bespoke
-reports](https://phuongquan.github.io/mantis/articles/bespoke-reports.html).
+website](https://ropensci.github.io/mantis/index.html), including how to
+add [alerting
+rules](https://ropensci.github.io/mantis/articles/alert-rules.html) and
+how to add `mantis` visualisations to your own [bespoke
+reports](https://ropensci.github.io/mantis/articles/bespoke-reports.html).
 
 ## Why should I use it?
 
@@ -62,6 +62,12 @@ We anticipate two main target users:
 install.packages("mantis")
 
 # or install the current development version
+# either from rOpenSci
+install.packages("mantis",
+                 repos = c('https://ropensci.r-universe.dev',
+                           'https://cloud.r-project.org'))
+
+# or direct from source
 # install stable dependencies first
 install.packages(c(
   "remotes",
@@ -75,9 +81,11 @@ install.packages(c(
   "ggplot2",
   "scales",
   "purrr",
-  "htmltools"
+  "htmltools",
+  "lubridate"
 ))
-remotes::install_github("phuongquan/mantis", dependencies = FALSE)
+# install.packages("remotes")
+remotes::install_github("ropensci/mantis", dependencies = FALSE)
 ```
 
 ## Usage
@@ -144,4 +152,4 @@ by the NIHR Oxford Biomedical Research Centre.
 ## Contributing to this package
 
 Please report any bugs or suggestions by opening a [github
-issue](https://github.com/phuongquan/mantis/issues).
+issue](https://github.com/ropensci/mantis/issues).

@@ -11,9 +11,9 @@ Generate interactive html reports that enable quick visual review of multiple re
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/phuongquan/mantis}
-  \item \url{https://phuongquan.github.io/mantis/}
-  \item Report bugs at \url{https://github.com/phuongquan/mantis/issues}
+  \item \url{https://github.com/ropensci/mantis}
+  \item \url{https://ropensci.github.io/mantis/}
+  \item Report bugs at \url{https://github.com/ropensci/mantis/issues}
 }
 
 }

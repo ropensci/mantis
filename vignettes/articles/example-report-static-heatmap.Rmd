@@ -46,7 +46,7 @@ img.logo {
 ```
 
 ```{=html}
-<iframe src="https://phuongquan.github.io/mantis/articles/example-prescriptions-static-heatmap.html" width="100%" height="900">
+<iframe src="https://ropensci.github.io/mantis/articles/example-prescriptions-static-heatmap.html" width="100%" height="900">
 </iframe>
 ```
 
