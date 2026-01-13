@@ -1,4 +1,6 @@
-# development version
+# mantis 1.0.1 (2025-01-13)
+
+Version accepted at https://ropensci.org/.
 
 ## Bug fixes and minor improvements
 

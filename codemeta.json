@@ -8,7 +8,7 @@
   "codeRepository": "https://github.com/ropensci/mantis",
   "issueTracker": "https://github.com/ropensci/mantis/issues",
   "license": "https://spdx.org/licenses/GPL-3.0",
-  "version": "1.0.0.9000",
+  "version": "1.0.1",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
@@ -292,10 +292,10 @@
     },
     "SystemRequirements": null
   },
-  "fileSize": "2237.386KB",
+  "fileSize": "2237.384KB",
   "releaseNotes": "https://github.com/ropensci/mantis/blob/main/NEWS.md",
   "readme": "https://github.com/ropensci/mantis/blob/main/README.md",
-  "contIntegration": ["https://github.com/ropensci/mantis/actions/workflows/R-CMD-check.yaml", "https://app.codecov.io/gh/phuongquan/mantis"],
+  "contIntegration": ["https://github.com/ropensci/mantis/actions/workflows/R-CMD-check.yaml", "https://app.codecov.io/gh/ropensci/mantis"],
   "developmentStatus": "https://www.repostatus.org/#active",
   "review": {
     "@type": "Review",
