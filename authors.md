@@ -16,7 +16,7 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/ropensci/mantis/blob/main/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/ropensci/mantis/blob/v1.0.1/DESCRIPTION)
 
 Quan TP (2026). *mantis: Multiple Time Series Scanner*. R package
 version 1.0.1, <https://github.com/ropensci/mantis>.
