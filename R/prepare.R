@@ -552,11 +552,13 @@ prepare_table <- function(
     )))) |>
     dplyr::arrange(timepoint) |>
     dplyr::mutate(
-      value_for_history = dplyr::case_when(
-        plot_value_type == "value" ~ as.numeric(value),
-        plot_value_type == "delta" ~
-          as.numeric(value) - dplyr::lag(as.numeric(value))
-      )
+      value_for_history = if (plot_value_type == "value") {
+        as.numeric(value)
+      } else if (plot_value_type == "delta") {
+        as.numeric(value) - dplyr::lag(as.numeric(value))
+      } else {
+        NA_real_
+      }
     ) |>
     dplyr::summarise(
       item_order_final = min(item_order_final),
