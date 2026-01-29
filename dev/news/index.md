@@ -1,5 +1,19 @@
 # Changelog
 
+## mantis (development version)
+
+## mantis 1.0.1 (2025-01-13)
+
+CRAN release: 2026-01-13
+
+Version accepted at <https://ropensci.org/>.
+
+### Bug fixes and minor improvements
+
+- Fixed error when first value of `timepoint_limits` parameter in
+  [`bespoke_rmd_output()`](https://ropensci.github.io/mantis/dev/reference/bespoke_rmd_output.md)
+  is `NA` ([\#35](https://github.com/ropensci/mantis/issues/35))
+
 ## mantis 1.0.0 (2025-10-27)
 
 CRAN release: 2025-10-27
