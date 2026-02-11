@@ -14,11 +14,14 @@ test_that("output_table_interactive() avoids min/max warnings when all values ar
 
   prepared_df <- prepare_df(df, inputspec = inputspec)
 
-  expect_no_warning(output_table_interactive(
-    prepared_df = prepared_df,
-    inputspec = inputspec,
-    plot_value_type = "value"
-  ))
+  expect_no_warning(
+    output_table_interactive(
+      prepared_df = prepared_df,
+      inputspec = inputspec,
+      plot_value_type = "value"
+    ),
+    message = "no\\s+non-missing\\s+arguments\\s+to\\s+(min|max)"
+  )
 })
 
 test_that("output_table_interactive() avoids min/max warnings when all deltas are NA", {
@@ -37,9 +40,12 @@ test_that("output_table_interactive() avoids min/max warnings when all deltas ar
 
   prepared_df <- prepare_df(df, inputspec = inputspec)
 
-  expect_no_warning(output_table_interactive(
-    prepared_df = prepared_df,
-    inputspec = inputspec,
-    plot_value_type = "delta"
-  ))
+  expect_no_warning(
+    output_table_interactive(
+      prepared_df = prepared_df,
+      inputspec = inputspec,
+      plot_value_type = "delta"
+    ),
+    message = "no\\s+non-missing\\s+arguments\\s+to\\s+(min|max)"
+  )
 })

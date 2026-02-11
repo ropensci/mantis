@@ -21,7 +21,8 @@ test_that("prepare_table() avoids min/max warnings when all values in a group ar
   prepared_df <- prepare_df(df, inputspec = inputspec)
 
   expect_no_warning(
-    prepare_table(prepared_df, inputspec = inputspec)
+    prepare_table(prepared_df, inputspec = inputspec),
+    message = "no\\s+non-missing\\s+arguments\\s+to\\s+(min|max)"
   )
 })
 
