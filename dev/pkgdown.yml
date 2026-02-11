@@ -8,7 +8,7 @@ articles:
   articles/example-report-static-heatmap: example-report-static-heatmap.html
   articles/example-report-static-multipanel: example-report-static-multipanel.html
   mantis: mantis.html
-last_built: 2026-01-29T18:26Z
+last_built: 2026-02-11T19:46Z
 urls:
   reference: https://ropensci.github.io/mantis/reference
   article: https://ropensci.github.io/mantis/articles
