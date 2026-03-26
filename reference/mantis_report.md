@@ -150,13 +150,13 @@ filename <- mantis_report(
 #> 10/12 [mantis-content]     
 #> 11/12                      
 #> 12/12 [mantis-init-widgets]
-#> output file: /tmp/Rtmpg4AnqU/mantis_temp_14kx53xy/report-html.knit.md
-#> /opt/hostedtoolcache/pandoc/3.1.11/x64/pandoc +RTS -K512m -RTS /tmp/Rtmpg4AnqU/mantis_temp_14kx53xy/report-html.knit.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output /tmp/Rtmpg4AnqU/example_prescription_numbers_interactive.html --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --variable bs3=TRUE --section-divs --template /home/runner/work/_temp/Library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable theme=bootstrap --mathjax --variable 'mathjax-url=https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --include-in-header /tmp/Rtmpg4AnqU/rmarkdown-str1b6d7a819a51.html 
+#> output file: /tmp/Rtmpadt7Yf/mantis_temp_mbu3844n/report-html.knit.md
+#> /opt/hostedtoolcache/pandoc/3.1.11/x64/pandoc +RTS -K512m -RTS /tmp/Rtmpadt7Yf/mantis_temp_mbu3844n/report-html.knit.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output /tmp/Rtmpadt7Yf/example_prescription_numbers_interactive.html --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --variable bs3=TRUE --section-divs --template /home/runner/work/_temp/Library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable theme=bootstrap --mathjax --variable 'mathjax-url=https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --include-in-header /tmp/Rtmpadt7Yf/rmarkdown-str1c853967763d.html 
 #> 
-#> Output created: /tmp/Rtmpg4AnqU/example_prescription_numbers_interactive.html
+#> Output created: /tmp/Rtmpadt7Yf/example_prescription_numbers_interactive.html
 
 filename
-#> [1] "/tmp/Rtmpg4AnqU/example_prescription_numbers_interactive.html"
+#> [1] "/tmp/Rtmpadt7Yf/example_prescription_numbers_interactive.html"
 # }
 
 # \donttest{
@@ -198,12 +198,12 @@ filename <- mantis_report(
 #> 10/12 [mantis-content]     
 #> 11/12                      
 #> 12/12 [mantis-init-widgets]
-#> output file: /tmp/Rtmpg4AnqU/mantis_temp_ol6v58l9/report-html.knit.md
-#> /opt/hostedtoolcache/pandoc/3.1.11/x64/pandoc +RTS -K512m -RTS /tmp/Rtmpg4AnqU/mantis_temp_ol6v58l9/report-html.knit.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output /tmp/Rtmpg4AnqU/example_prescription_numbers_interactive.html --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --variable bs3=TRUE --section-divs --template /home/runner/work/_temp/Library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable theme=bootstrap --mathjax --variable 'mathjax-url=https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --include-in-header /tmp/Rtmpg4AnqU/rmarkdown-str1b6d6635dc9a.html 
+#> output file: /tmp/Rtmpadt7Yf/mantis_temp_ec14kx53/report-html.knit.md
+#> /opt/hostedtoolcache/pandoc/3.1.11/x64/pandoc +RTS -K512m -RTS /tmp/Rtmpadt7Yf/mantis_temp_ec14kx53/report-html.knit.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output /tmp/Rtmpadt7Yf/example_prescription_numbers_interactive.html --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --variable bs3=TRUE --section-divs --template /home/runner/work/_temp/Library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable theme=bootstrap --mathjax --variable 'mathjax-url=https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --include-in-header /tmp/Rtmpadt7Yf/rmarkdown-str1c85779a9263.html 
 #> 
-#> Output created: /tmp/Rtmpg4AnqU/example_prescription_numbers_interactive.html
+#> Output created: /tmp/Rtmpadt7Yf/example_prescription_numbers_interactive.html
 
 filename
-#> [1] "/tmp/Rtmpg4AnqU/example_prescription_numbers_interactive.html"
+#> [1] "/tmp/Rtmpadt7Yf/example_prescription_numbers_interactive.html"
 # }
 ```

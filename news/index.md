@@ -2,6 +2,8 @@
 
 ## mantis 1.0.2 (2026-02-11)
 
+CRAN release: 2026-02-11
+
 ### Bug fixes and minor improvements
 
 - Fixed `case_when()` warnings introduced in `dplyr` v1.2.0
