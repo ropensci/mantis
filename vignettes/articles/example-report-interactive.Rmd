@@ -18,7 +18,11 @@ if (
     "[.]"
   ))) <
     4
+# and if the expected website destination exists (i.e. the destination hasn't been changed)
+  &&
+  file.exists("../../docs/articles")
 ) {
+
   example_prescription_numbers <- mantis::example_prescription_numbers
 
   filename <-
