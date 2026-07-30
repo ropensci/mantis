@@ -1,8 +1,16 @@
+# mantis (development version)
+
+## Bug fixes and minor improvements
+
+* Hex logo now appears on reports, adding dependency to `xfun`
+
+
 # mantis 1.0.2 (2026-02-11)
 
 ## Bug fixes and minor improvements
 
 * Fixed `case_when()` warnings introduced in `dplyr` v1.2.0
+
 
 # mantis 1.0.1 (2025-01-13)
 
@@ -11,6 +19,7 @@ Version accepted at https://ropensci.org/.
 ## Bug fixes and minor improvements
 
 * Fixed error when first value of `timepoint_limits` parameter in `bespoke_rmd_output()` is `NA` (#35)
+
 
 # mantis 1.0.0 (2025-10-27)
 
@@ -27,9 +36,11 @@ Incorporates changes requested for acceptance into https://ropensci.org/.
 * Date-only timepoints cast as POSIXt using a daylight-savings-varying timezone no longer result in inappropriate additional timepoints appearing in plots (#30)
 * Stricter validation of POSIXt timepoints
 
+
 # mantis 0.4.3 (2025-07-31)
 
 Include bespoke reports functionality.
+
 
 # mantis 0.4.2 (2025-07-25)
 
@@ -45,11 +56,13 @@ Lightweight initial CRAN submission. Only includes standard (non-bespoke) report
 * Timestamps added to filenames are now formatted correctly on linux
 * Intermediate files that are generated while creating a report are now created in `tempdir()` instead of the working directory where possible (#24)
 
+
 # mantis 0.3.0 (2025-06-10)
 
 ## Breaking changes
 
 * `timepoint_unit` parameter of `inputspec()` replaces `period` 
+
 
 # mantis 0.2.0 (2025-02-07)
 
@@ -67,6 +80,7 @@ Lightweight initial CRAN submission. Only includes standard (non-bespoke) report
 ## Bug fixes and minor improvements
 
 * example_prescription_numbers dataset now has additional data
+
 
 # mantis 0.1.2 (2025-01-15)
 

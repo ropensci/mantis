@@ -6,6 +6,8 @@
 \alias{mantis-package}
 \title{mantis: Multiple Time Series Scanner}
 \description{
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+
 Generate interactive html reports that enable quick visual review of multiple related time series stored in a data frame. For static datasets, this can help to identify any temporal artefacts that may affect the validity of subsequent analyses. For live data feeds, regularly scheduled reports can help to pro-actively identify data feed problems or unexpected trends that may require action. The reports are self-contained and shareable without a web server.
 }
 \seealso{
@@ -19,6 +21,11 @@ Useful links:
 }
 \author{
 \strong{Maintainer}: T. Phuong Quan \email{phuongquan567@outlook.com} (\href{https://orcid.org/0000-0001-8566-1817}{ORCID})
+
+Authors:
+\itemize{
+  \item T. Phuong Quan \email{phuongquan567@outlook.com} (\href{https://orcid.org/0000-0001-8566-1817}{ORCID})
+}
 
 Other contributors:
 \itemize{

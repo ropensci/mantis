@@ -26,6 +26,13 @@ p.compact {
 	}
 ```
 
+<script>
+   $(document).ready(function() {
+     $head = $('#header');
+     $head.prepend('<img src="`r xfun::base64_uri(system.file("rmd/logo.png", package = "mantis"))`" style="float: right; width: 90px"/>')
+   });
+</script>
+
 <p class="compact">
 `r if (nchar(params$dataset_description) > 0) {paste0("Dataset: <strong>", encodeString(params$dataset_description), "</strong>")}`
 </p>

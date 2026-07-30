@@ -743,3 +743,14 @@ stop_custom <- function(
 is_date_or_time <- function(x) {
   inherits(x, what = "Date") || inherits(x, what = "POSIXt")
 }
+
+# -----------------------------------------------------------------------------
+#' Dummy functions set up purely for R CMD Check Namespace bug
+#'
+#' Addresses R CMD Check NOTE: Namespace in Imports field not imported from: ‘package’
+#' In some situations the check misses the fact that the 'package' is used in the Rmd file in ./inst/rmd
+#' Call it here to stop the NOTE
+#' @noRd
+dummy_package_call <- function() {
+  xfun::base64_uri
+}
