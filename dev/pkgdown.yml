@@ -1,5 +1,5 @@
-pandoc: 3.1.11
-pkgdown: 2.2.0
+pandoc: 3.8.3
+pkgdown: 2.2.1
 pkgdown_sha: ~
 articles:
   alert-rules: alert-rules.html
@@ -8,7 +8,7 @@ articles:
   articles/example-report-static-heatmap: example-report-static-heatmap.html
   articles/example-report-static-multipanel: example-report-static-multipanel.html
   mantis: mantis.html
-last_built: 2026-02-11T19:46Z
+last_built: 2026-07-30T15:34Z
 urls:
   reference: https://ropensci.github.io/mantis/reference
   article: https://ropensci.github.io/mantis/articles

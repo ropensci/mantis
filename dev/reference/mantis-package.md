@@ -23,6 +23,11 @@ Useful links:
 **Maintainer**: T. Phuong Quan <phuongquan567@outlook.com>
 ([ORCID](https://orcid.org/0000-0001-8566-1817))
 
+Authors:
+
+- T. Phuong Quan <phuongquan567@outlook.com>
+  ([ORCID](https://orcid.org/0000-0001-8566-1817))
+
 Other contributors:
 
 - University of Oxford \[copyright holder\]

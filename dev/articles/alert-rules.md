@@ -34,6 +34,7 @@ values. The `extent_type` and `extent_value` parameters can be used to
 adjust the tolerance. E.g.
 
 ``` r
+
 # alert if all values are NA
 ars <- alert_rules(alert_missing(extent_type = "all"))
 
@@ -63,6 +64,7 @@ is based on the mean of values in the two periods. The ranges should be
 contiguous, and denote positions from the end of the time series. E.g.
 
 ``` r
+
 # alert if the mean of last 3 values is more than 20% higher than
 # the mean of the preceding 12 values
 ars <- alert_rules(
@@ -81,6 +83,7 @@ If you want to apply a more complex rule, you can specify your own using
 E.g.
 
 ``` r
+
 ars <- alert_rules(
   alert_custom(
     short_name = "my_rule_combo",
@@ -124,12 +127,14 @@ Generate an interactive `mantis` report for the
 package.
 
 ``` r
+
 library(mantis)
 
 data("example_prescription_numbers")
 ```
 
 ``` r
+
 mantis_report(
   df = example_prescription_numbers,
   file = "example_prescription_numbers_interactive.html",
@@ -162,6 +167,7 @@ Coamoxiclav prescriptions have become much higher than they were at the
 start.
 
 ``` r
+
 ars <- alert_rules(
   alert_missing(extent_type = "any", extent_value = 1),
   alert_custom(
@@ -212,6 +218,7 @@ spectrum antibiotics, we can indicate this using the `items` parameter
 of the rule.
 
 ``` r
+
 ars_restricted <- alert_rules(
   alert_missing(extent_type = "any", extent_value = 1),
   alert_custom(

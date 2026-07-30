@@ -43,6 +43,7 @@ We anticipate two main target users:
 ## Installation
 
 ``` r
+
 # install from CRAN
 install.packages("mantis")
 
@@ -76,6 +77,7 @@ remotes::install_github("ropensci/mantis", dependencies = FALSE)
 ## Usage
 
 ``` r
+
 library(mantis)
 
 # this example data frame contains numbers of antibiotic prescriptions 
@@ -98,6 +100,7 @@ head(example_prescription_numbers)
 ```
 
 ``` r
+
 # create a report in the working directory, with one tab per Location
 mantis_report(
   df = example_prescription_numbers,

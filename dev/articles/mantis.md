@@ -33,6 +33,7 @@ contains 5 columns:
 - Location - The hospital site where the prescription was written
 
 ``` r
+
 # first, attach the package if you haven't already
 library(mantis)
 
@@ -83,6 +84,7 @@ Here are some options for specifying the data columns, depending on how
 you want the report to look:
 
 ``` r
+
 
 # create a flat report, and include the "Location" and "Antibiotic" fields
 # in the content
@@ -179,6 +181,7 @@ report in the working directory, with separate tabs for each hospital
 site.
 
 ``` r
+
 mantis_report(
   df = example_prescription_numbers,
   file = "example_prescription_numbers_interactive.html",
@@ -206,6 +209,7 @@ function when supplying the `outputspec` parameter.
 #### Heatmap
 
 ``` r
+
 mantis_report(
   df = example_prescription_numbers,
   file = "example_prescription_numbers_heatmap.html",
@@ -222,6 +226,7 @@ mantis_report(
 #### Multipanel
 
 ``` r
+
 mantis_report(
   df = example_prescription_numbers,
   file = "example_prescription_numbers_multipanel.html",

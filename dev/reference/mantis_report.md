@@ -150,13 +150,13 @@ filename <- mantis_report(
 #> 10/12 [mantis-content]     
 #> 11/12                      
 #> 12/12 [mantis-init-widgets]
-#> output file: /tmp/RtmpE1NnFy/mantis_temp_14kx53xy/report-html.knit.md
-#> /opt/hostedtoolcache/pandoc/3.1.11/x64/pandoc +RTS -K512m -RTS /tmp/RtmpE1NnFy/mantis_temp_14kx53xy/report-html.knit.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output /tmp/RtmpE1NnFy/example_prescription_numbers_interactive.html --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --variable bs3=TRUE --section-divs --template /home/runner/work/_temp/Library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable theme=bootstrap --mathjax --variable 'mathjax-url=https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --include-in-header /tmp/RtmpE1NnFy/rmarkdown-str1c141ae2eaaa.html 
+#> output file: /tmp/RtmpyzMgHl/mantis_temp_mbu3844n/report-html.knit.md
+#> /opt/hostedtoolcache/pandoc/3.8.3/x64/pandoc +RTS -K512m -RTS /tmp/RtmpyzMgHl/mantis_temp_mbu3844n/report-html.knit.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output /tmp/RtmpyzMgHl/example_prescription_numbers_interactive.html --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/latex-div.lua --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/table-classes.lua --embed-resources --standalone --variable bs3=TRUE --section-divs --template /home/runner/work/_temp/Library/rmarkdown/rmd/h/default.html --syntax-highlighting none --variable highlightjs=1 --variable theme=bootstrap --mathjax --variable 'mathjax-url=https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --include-in-header /tmp/RtmpyzMgHl/rmarkdown-str1aa2334a5892.html 
 #> 
-#> Output created: /tmp/RtmpE1NnFy/example_prescription_numbers_interactive.html
+#> Output created: /tmp/RtmpyzMgHl/example_prescription_numbers_interactive.html
 
 filename
-#> [1] "/tmp/RtmpE1NnFy/example_prescription_numbers_interactive.html"
+#> [1] "/tmp/RtmpyzMgHl/example_prescription_numbers_interactive.html"
 # }
 
 # \donttest{
@@ -198,12 +198,12 @@ filename <- mantis_report(
 #> 10/12 [mantis-content]     
 #> 11/12                      
 #> 12/12 [mantis-init-widgets]
-#> output file: /tmp/RtmpE1NnFy/mantis_temp_ol6v58l9/report-html.knit.md
-#> /opt/hostedtoolcache/pandoc/3.1.11/x64/pandoc +RTS -K512m -RTS /tmp/RtmpE1NnFy/mantis_temp_ol6v58l9/report-html.knit.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output /tmp/RtmpE1NnFy/example_prescription_numbers_interactive.html --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --variable bs3=TRUE --section-divs --template /home/runner/work/_temp/Library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable theme=bootstrap --mathjax --variable 'mathjax-url=https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --include-in-header /tmp/RtmpE1NnFy/rmarkdown-str1c144bfea914.html 
+#> output file: /tmp/RtmpyzMgHl/mantis_temp_ec14kx53/report-html.knit.md
+#> /opt/hostedtoolcache/pandoc/3.8.3/x64/pandoc +RTS -K512m -RTS /tmp/RtmpyzMgHl/mantis_temp_ec14kx53/report-html.knit.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output /tmp/RtmpyzMgHl/example_prescription_numbers_interactive.html --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/latex-div.lua --lua-filter /home/runner/work/_temp/Library/rmarkdown/rmarkdown/lua/table-classes.lua --embed-resources --standalone --variable bs3=TRUE --section-divs --template /home/runner/work/_temp/Library/rmarkdown/rmd/h/default.html --syntax-highlighting none --variable highlightjs=1 --variable theme=bootstrap --mathjax --variable 'mathjax-url=https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --include-in-header /tmp/RtmpyzMgHl/rmarkdown-str1aa24e9ef37b.html 
 #> 
-#> Output created: /tmp/RtmpE1NnFy/example_prescription_numbers_interactive.html
+#> Output created: /tmp/RtmpyzMgHl/example_prescription_numbers_interactive.html
 
 filename
-#> [1] "/tmp/RtmpE1NnFy/example_prescription_numbers_interactive.html"
+#> [1] "/tmp/RtmpyzMgHl/example_prescription_numbers_interactive.html"
 # }
 ```
